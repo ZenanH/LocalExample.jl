@@ -2,7 +2,7 @@ module LocalExample
 
 using ArrayAllocators
 
-export exp
+export check_dev
 
 include("functions.jl")
 
