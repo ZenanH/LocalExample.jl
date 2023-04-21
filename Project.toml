@@ -1,0 +1,16 @@
+name = "LocalExample"
+uuid = "947e7b2b-7c7e-44c0-93fb-1a520802ac23"
+authors = ["Zenan Huo"]
+version = "1.0.0-DEV"
+
+[deps]
+ArrayAllocators = "c9d4266f-a5cb-439d-837c-c97b191379f5"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
